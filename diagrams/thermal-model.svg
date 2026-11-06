@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+<title id="title">One-node motor winding thermal model</title>
+<desc id="desc">Copper loss enters a winding node that stores heat. A thermal resistance carries heat from winding to a fixed ambient. The case is not a separate node.</desc>
+<rect width="960" height="480" rx="24" fill="#edf5f3"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#173c3f">
+<text x="50" y="65" font-size="38" font-weight="700">Follow the heat</text>
+<text x="50" y="109" font-size="25">A simplified winding with one path to the air</text>
+<rect x="50" y="175" width="235" height="150" rx="18" fill="#f6dbb0"/>
+<rect x="340" y="175" width="280" height="150" rx="18" fill="#d4e9e3"/>
+<rect x="680" y="175" width="230" height="150" rx="18" fill="#d4e3ed"/>
+<g text-anchor="middle">
+<text x="167" y="223" font-size="29" font-weight="700">Copper loss</text><text x="167" y="271" font-size="27">I² × R (W)</text>
+<text x="480" y="223" font-size="29" font-weight="700">Winding node</text><text x="480" y="271" font-size="25">Stores heat: C (J/K)</text>
+<text x="795" y="223" font-size="29" font-weight="700">Ambient</text><text x="795" y="271" font-size="25">Fixed air temp.</text>
+</g>
+<path d="M285 248h51m-15-11 15 11-15 11M620 248h56m-15-11 15 11-15 11" fill="none" stroke="#164f54" stroke-width="5" stroke-linejoin="round"/>
+<text x="480" y="391" text-anchor="middle" font-size="26" font-weight="700">Heat leaves through a resistance Rth (K/W).</text>
+<text x="480" y="433" text-anchor="middle" font-size="23">The case and mounting plate have no separate temperatures here.</text>
+</g></svg>

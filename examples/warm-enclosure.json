@@ -1,0 +1,16 @@
+{
+  "ambient_c": 45,
+  "resistance_ohm": 0.8,
+  "thermal_k_per_w": 4,
+  "thermal_j_per_k": 3,
+  "steps": [
+    {
+      "seconds": 30,
+      "amps": 5
+    },
+    {
+      "seconds": 90,
+      "amps": 0
+    }
+  ]
+}
